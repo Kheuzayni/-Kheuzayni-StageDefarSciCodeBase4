@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les tableaux</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="Base4.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body> 
+        <h1>Opérations sur les tableaux</h1>
+        <h2>Chapitre 47</h2>
+        <table>
+            <tr>
+                <th colspan="3"> NOM </th>
+                <th colspan="2"> Adresse mail </th>
+            </tr>
+            <tr>
+                <td>Baye</td>
+                <td> Cheikh</td>
+                <td>FALL</td>
+                <td colspan="2">bayecheikhfall@esp.sn</td>   
+            </tr>
+            <tr>
+                <td colspan="3"> Cheikh </td>
+                <td> cddiallo@gmail.com </td>
+                <td> cheikh.diallo@defarsci.org </td>
+            </tr>
+        </table>
+             <h3>Fusion des cellules</h3>
+             <p>Un autre tableau</p>
+             <table>
+                 <tr>
+                    <th>Nom</th>
+                    <th>Adresse mail</th>
+                 </tr>
+                 <tr>
+                     <td>Moussa</td>
+                     <td>moisse@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Moussa</td>
+                     <td>mou@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Ali</td>
+                     <td>alin@gmail.com</td>
+                 </tr>
+             </table>
+            <p>On fusionne le prénom Moussa grace à rowspan: </p>
+            <table>
+                <tr>
+                    <caption>La fusion</caption>
+                    <th>NOM</th>
+                    <th>Adresse mail</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Moussa</td>
+                    <td>moisse@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>mou@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ali</td>
+                    <td>alin@gmail.com</td>
+                </tr>
+            </table>
+            <p>Ici, Moussa occupe deux lignes</p>
+            
+    </body>
+</html>

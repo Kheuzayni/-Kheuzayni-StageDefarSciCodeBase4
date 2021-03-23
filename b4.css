@@ -1,0 +1,19 @@
+body{
+    font-family: 'Open Sabs', sans-serif;
+}
+h1{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: verdana, sans-serif;
+
+    background-color:#FFF;
+    background-image: url('mer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+}
+p{
+    font: italic normal 16px/24px Verdana, sans-serif;
+    background: #FFF url('mer.jpg') no-repeat scroll top left;
+}
